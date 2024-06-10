@@ -12,7 +12,7 @@ This repo allows people to run a simple webapp which publishes metrics which can
 3. An instance of Grafana & Prometheus. Here are some options for running your own:
 	* [On a Raspberry Pi](https://grafana.com/tutorials/install-grafana-on-raspberry-pi/)
 	* [AWS Prometheus](https://aws.amazon.com/prometheus/). Be careful to stay within the free tier limits.
-	* [Grafna Cloud](https://grafana.com/products/cloud/). Only has 14 days free retention.
+	* [Grafana Cloud](https://grafana.com/products/cloud/). Only has 14 days free retention.
 
 ## How to Run
 
