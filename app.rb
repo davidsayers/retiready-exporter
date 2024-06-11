@@ -31,7 +31,7 @@ retiready_metrics(gauge)
 
 prometheus.register(gauge)
 
-task = Concurrent::TimerTask.new(execution_interval: 600) do
+task = Concurrent::TimerTask.new(execution_interval: 3600) do
   retiready_metrics(gauge)
 rescue StandardError => e
   puts e.full_message
